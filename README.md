@@ -90,8 +90,9 @@ LLM Reasoning Layer
 ↓
 
 Timestamp Grounded Responses
+</div>
 
----
+</pre>
 
 # Technology Stack
 
@@ -136,7 +137,9 @@ Deployment via Vercel.
 ---
 
 # Data Pipeline
+<div align="center">
 
+<pre>
 Video Upload
 
 ↓
