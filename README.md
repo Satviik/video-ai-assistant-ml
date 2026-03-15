@@ -7,7 +7,7 @@ The system converts raw video into structured semantic representations, enabling
 ---
 
 # Features
-
+<pre>
 • Video upload support
 • Automatic speech transcription
 • AI generated video chapters
@@ -16,7 +16,7 @@ The system converts raw video into structured semantic representations, enabling
 • Context aware chat interface
 • Video knowledge retrieval system
 • Analytics dashboard for insights
-
+</pre>
 ---
 
 # System Overview
@@ -100,7 +100,7 @@ Timestamp Grounded Responses
 # Technology Stack
 
 ## Machine Learning
-
+<pre>
 Python
 PyTorch
 Whisper
@@ -108,35 +108,34 @@ Sentence Transformers
 FAISS
 NumPy
 Pandas
-
+</pre>
 ---
 
 ## Backend
-
+<pre>
 FastAPI
 Pydantic
 Uvicorn
 FFmpeg
-
+</pre>
 ---
 
 ## Infrastructure
-
+<pre>
 AWS EC2
 Ubuntu Server
 GPU acceleration support
 Async worker processing
-
+</pre>
 ---
 
 ## Frontend
-
+<pre>
 React
 TailwindCSS
 Streaming chat interface
-
 Deployment via Vercel.
-
+</pre>
 ---
 
 # Data Pipeline
