@@ -347,7 +347,7 @@ Users can jump directly to the relevant section of the video.
 ---
 
 # Backend Architecture
-
+<div align="center">
 +-------------------------+
 | Video Upload API |
 +-------------------------+
@@ -398,7 +398,7 @@ v
 +-------------------------+
 
 ---
-
+</div>
 # Cloud Backend
 
 Hosted on AWS EC2.
