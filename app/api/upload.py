@@ -9,6 +9,7 @@ from app.services.audio_service import extract_audio
 from app.services.whisper_service import transcribe_audio
 from app.utils.transcript_utils import save_transcript
 
+
 router = APIRouter(prefix="/upload", tags=["Upload"])
 
 VIDEO_DIR = "data/videos"
