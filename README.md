@@ -22,7 +22,8 @@ The system converts raw video into structured semantic representations, enabling
 # System Overview
 
 The system processes videos through a multi-stage AI pipeline that transforms audiovisual information into searchable semantic knowledge.
-
+<div align="center">
+<pre>
 Video
 
 ↓
@@ -60,11 +61,12 @@ LLM Reasoning
 ↓
 
 Timestamp Grounded Answers
-
----
+</pre>
+</div>
 
 # Live Architecture
-
+<div align="center">
+<pre>
 Frontend (React + Vercel)
 
 ↓
@@ -90,9 +92,10 @@ LLM Reasoning Layer
 ↓
 
 Timestamp Grounded Responses
+</pre>
 </div>
 
-</pre>
+
 
 # Technology Stack
 
@@ -177,8 +180,8 @@ LLM Context Reasoning
 ↓
 
 Chat Response
-
----
+</pre>
+</div>
 
 # Video Understanding Pipeline
 
