@@ -347,57 +347,63 @@ Users can jump directly to the relevant section of the video.
 ---
 
 # Backend Architecture
+## Backend Architecture
+
 <div align="center">
+
+<pre>
+
 +-------------------------+
-| Video Upload API |
+| Video Upload API        |
 +-------------------------+
-|
-v
+            |
+            v
 +-------------------------+
-| FFmpeg Audio Extractor |
+| FFmpeg Audio Extractor  |
 +-------------------------+
-|
-v
+            |
+            v
 +-------------------------+
-| Whisper Transcription |
+| Whisper Transcription   |
 +-------------------------+
-|
-v
+            |
+            v
 +-------------------------+
-| Chunking Engine |
+| Chunking Engine         |
 +-------------------------+
-|
-v
+            |
+            v
 +-------------------------+
-| Embedding Generator |
+| Embedding Generator     |
 +-------------------------+
-|
-v
+            |
+            v
 +-------------------------+
-| FAISS Vector Index |
+| FAISS Vector Index      |
 +-------------------------+
-|
-v
+            |
+            v
 +-------------------------+
-| Semantic Retrieval |
+| Semantic Retrieval      |
 +-------------------------+
-|
-v
+            |
+            v
 +-------------------------+
-| Reranker Model |
+| Reranker Model          |
 +-------------------------+
-|
-v
+            |
+            v
 +-------------------------+
-| LLM Reasoning Engine |
+| LLM Reasoning Engine    |
 +-------------------------+
-|
-v
+            |
+            v
 +-------------------------+
-| Chat Response API |
+| Chat Response API       |
 +-------------------------+
 
----
+</pre>
+
 </div>
 # Cloud Backend
 
